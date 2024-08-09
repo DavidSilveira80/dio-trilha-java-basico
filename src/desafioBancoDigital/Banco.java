@@ -22,4 +22,9 @@ public class Banco {
     public void setContas(List<Conta> contas) {
         this.contas = contas;
     }
+
+    @Override
+    public String toString(){
+        return "Bem-vindo ao Banco Digital " + this.nome;
+    }
 }
